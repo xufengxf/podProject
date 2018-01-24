@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => 'https://github.com/xufengbj/podProject.git', :tag => "#{s.version}" }
   s.source_files = 'YLYKPodTestModel.{h,m}'
-  s.framework    = 'SystemConfiguration'
+  s.framework    = 'Foundation', 'CoreData','UIKit'
 
   s.requires_arc = true
   s.ios.deployment_target = "8.0"
